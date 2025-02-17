@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Reacts - Your AI Reaction Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Reacts transforms your mood into the perfect reaction. Describe your day and let our AI craft a witty reaction along with a dynamic meme GIF for sharing." />
+
+  <!-- Font Awesome (analytics disabled) -->
+  <script src="https://kit.fontawesome.com/e328bff894.js?analytics=0" crossorigin="anonymous" data-analytics="0"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- (Optional) External libraries such as AOS, Tippy, or Typewriter can be loaded here via CDN -->
+  <!-- For example:
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  -->
+</head>
+<body>
+  <!-- Header -->
+  <header class="header animate-fadeIn">
+    <a class="headertitle" href="javascript:void(0)"><i class="fas fa-robot"></i> AI Reacts</a>
+    <nav class="nav-links">
+      <a href="javascript:void(0)" onclick="scrollToSection('reactor')">
+        <i class="fas fa-bolt"></i> React Now
+      </a>
+      <a href="javascript:void(0)" onclick="scrollToSection('features')">
+        <i class="fas fa-star"></i> Features
+      </a>
+      <a href="javascript:void(0)" onclick="scrollToSection('donate')">
+        <i class="fas fa-hand-holding-heart"></i> Support Us
+      </a>
+    </nav>
+  </header>
+
+  <!-- Vector Background -->
+  <div class="vector"></div>
+
+  <!-- Main Landing Content -->
+  <main class="main animate-fadeIn">
+    <h1><i class="fas fa-robot"></i> AI Reacts</h1>
+    <h2 id="typewriter"><i class="fas fa-magic"></i> Your AI Reaction Generator</h2>
+    <div class="topbuttons">
+      <button class="btn" onclick="scrollToSection('reactor')">
+        <i class="fas fa-arrow-right"></i> React Now
+      </button>
+      <button class="btn" onclick="scrollToSection('features')">
+        <i class="fas fa-info-circle"></i> Learn More
+      </button>
+    </div>
+    <div class="scroll-down" onclick="scrollToSection('features')">
+      <i class="fas fa-angle-down"></i>
+    </div>
+  </main>
+
+  <!-- Features Section -->
+  <section id="features" class="animate-slideIn" data-aos="fade-up">
+    <h2><i class="fas fa-cogs"></i> Features</h2>
+    <p>
+      <strong><i class="fas fa-magic"></i> AI Reaction Generation:</strong> Describe your mood or a moment from your day and let our AI craft a witty, shareable reaction.<br><br>
+      <strong><i class="fas fa-bolt"></i> Instant & Dynamic:</strong> Get a quick reaction and a fresh meme GIF every time you submit the same prompt.<br><br>
+      <strong><i class="fas fa-share-alt"></i> Social Ready:</strong> Perfect for sharing your moment on social media.<br><br>
+      <strong><i class="fas fa-microphone"></i> Voice Input:</strong> Use voice commands to describe your day if you prefer.<br><br>
+      <strong><i class="fas fa-smile"></i> Fun & Engaging:</strong> Turn everyday moments into shareable humor.
+    </p>
+  </section>
+
+  <!-- Reaction Generator Section -->
+  <section id="reactor" class="animate-fadeIn" data-aos="fade-up">
+    <h2><i class="fas fa-edit"></i> Describe Your Day</h2>
+    <p><i class="fas fa-pencil-alt"></i> Tell us about your mood or a moment from your day:</p>
+    <textarea id="reaction-input" placeholder="e.g., I just spilled coffee on my shirt before an important meeting!"></textarea>
+    <br>
+    <!-- Voice Input Button -->
+    <button id="voice-btn" class="btn"><i class="fas fa-microphone"></i> Voice Input</button>
+    <br>
+    <button id="generate-btn" class="btn"><i class="fas fa-magic"></i> Generate Reaction</button>
+    <div id="reaction-box"></div>
+  </section>
+
+  <!-- Donation Section -->
+  <section id="donate" class="animate-fadeIn" data-aos="fade-up">
+    <h2><i class="fas fa-donate"></i> Support Us</h2>
+    <p>If you enjoy our AI reactions and want to help us improve, please consider donating. Your support keeps our creativity flowing!</p>
+    <button class="btn" id="donate-btn" onclick="donate()">
+      <i class="fas fa-donate"></i> Donate via PayPal
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer animate-fadeIn" data-aos="fade-up">
+    <p>© 2025 AI Reacts. All rights reserved.</p>
+    <div class="footer-icons">
+      <a href="https://discord.gg/uTQWQNmTAy" target="_blank" title="Discord">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://tiktok.com/@anshthedev" target="_blank" title="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://github.com/Anshkabra2012/AI-Reacts" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://x.com/anshkabra2012" target="_blank" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="../js/app.js"></script>
+</body>
+</html>
