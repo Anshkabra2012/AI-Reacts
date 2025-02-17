@@ -4,8 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/anshkabra)  
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/yourusername/ai-reacts)  
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/ai-reacts)](https://github.com/yourusername/ai-reacts/issues)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/anshkabra2012/ai-reacts)  
+[![GitHub issues](https://img.shields.io/github/issues/anshkabra2012/ai-reacts)](https://github.com/yourusername/ai-reacts/issues)
 
 ---
 
